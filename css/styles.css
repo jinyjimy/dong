@@ -91,7 +91,7 @@ ul li {list-style: none;}
 .cont1-text h4 {padding-top:10px; font-size: 15px;}
 .textbox {font-size: 11px; padding-top: 10px;}
 .subtext {font-size: 10px; padding-top: 15px;}
-.cont3-text {padding-left: 50px;padding-top: 50px;}
+.cont3-text {padding-left: 50px;padding-top: 50px; width: 100%;}
 }
 
 
@@ -102,6 +102,11 @@ ul li {list-style: none;}
   .main-text h2 {font-size: 13px;}
   .main-text h2 span {font-size: 25px;}
 .btnbox {display: inline-block;}
+.cont3-text {width: 100%; padding-left: 10px;}
+.cont3-text h6 {font-size: 15px;}
+.cont3-text p {font-size: 12px;}
+.map {width: 50%;}
+.footer div { font-size: 10px;}
 }
 :root {
   --bs-blue: #0d6efd;
