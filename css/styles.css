@@ -45,12 +45,15 @@ ul li {list-style: none;}
 /*컨텐츠 2*/
 .imgslide {width: 50%;margin:0 auto}
 
+
+/*아이콘박스*/
+.iconbox {width: 100%;}
 /*안내 cont3 */
 #service {color:#fff}
 #service h3 {text-align: center;font-weight: normal;padding-bottom: 50px;}
 .cont3 {display: flex;}
 .con3 span {font-weight: bold;}
-.cont3-text {padding-left: 50px;padding-top: 100px;}
+.cont3-text {padding-left: 50px;padding-top: 100px; width: 50%;}
 
 
 /*footer*/
@@ -88,9 +91,18 @@ ul li {list-style: none;}
 .cont1-text h4 {padding-top:10px; font-size: 15px;}
 .textbox {font-size: 11px; padding-top: 10px;}
 .subtext {font-size: 10px; padding-top: 15px;}
-}
 .cont3-text {padding-left: 50px;padding-top: 50px;}
+}
 
+
+
+@media (max-width: 576px) {
+  .main-text {padding-top: 130px;}
+  .main-img {padding-top: 20px; }
+  .main-text h2 {font-size: 13px;}
+  .main-text h2 span {font-size: 25px;}
+.btnbox {display: inline-block;}
+}
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
